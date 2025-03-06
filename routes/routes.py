@@ -54,7 +54,7 @@ def verify():
         if not all([first_name, last_name, date_of_birth]):
             return jsonify({"error": "Missing required fields"}), 400
 
-        corepoint = 'https://cptest-vip.utmck.edu:9443/dev/get_ids/'
+        <redacted>
 
         try:
             response = requests.post(corepoint, json=data)
